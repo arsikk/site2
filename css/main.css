@@ -1,0 +1,137 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header a {
+    color: #ffffff;
+}
+
+body{
+    font-family: Anton;
+}
+
+.container{
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../img/header-bg.png)  ;
+    padding-top: 57px;
+    padding-bottom: 307px;
+    
+}
+
+.menu_nav{
+    display: flex;
+    
+}
+
+.menu_nav li{
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.logo{
+    margin-right: 70px;
+}
+
+.tel{
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+}
+.menu_nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+
+.main_words{
+    margin-top: 230px;
+}
+
+.main_word_1{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.main_word_2 {
+    margin-top: -9px;
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 147px;
+    margin-bottom: 19px;
+}
+
+.btn{
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+.about_text{
+    font-size: 50px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 114px;
+    margin-bottom: 58px;
+}
+
+.topics h3{
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.topics p {
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 70px;
+    
+}
+
+.topics{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+.topics__2{
+    margin-left: 185px;
+}
+
